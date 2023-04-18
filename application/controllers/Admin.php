@@ -25,7 +25,6 @@ class Admin extends CI_Controller
             $password = $_POST['password'];
             $data =  $this->CommonModal->getRowById('tbl_admin', 'username', $username);
             if ($data) {
-
                 $id = $data[0]['admin_id'];
                 $f_username = $data[0]['username'];
                 $f_password = $data[0]['password'];
