@@ -307,6 +307,7 @@ section.services-2-section {
 	color: #fff;
 	font-size: 45px;
 	transition: .5s;
+	display:none;
 }
 h2.services-2-title {
 	font-size: 24px;
@@ -447,9 +448,42 @@ h2.sec-title {
 ul.whychooseus-2-list{
 	list-style-type: none;
 }
+.banner-bottom-info
+	{
+		display: none;
+	}
+	.banner-top-info
+	{
+		display: block;
+	}	
 
-@media (max-width: 991px){
+@media (max-width: 991px)
+{
 	.whychooseus-1-tab-title {
 		font-size: 20px;
 	}
+	.banner-bottom-info
+	{
+		display: block;
+	}
+	.banner-top-info
+	{
+		display: none;
+	}
+
+	.mobile-btn
+	{
+		    width: 100%;
+    font-size: 20px;
+    text-align: center;
+	}
+
+}
+
+
+
+.text-black
+{
+	color: black;
+    font-size: 16px;
 }

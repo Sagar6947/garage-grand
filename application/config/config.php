@@ -2,7 +2,7 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 
 // $config['base_url'] = 'https://www.garagegrand.com/new/';
-$config['base_url'] = 'http://localhost/garage-grand';
+$config['base_url'] = 'http://localhost/garage';
 
 $config['index_page'] = '';
 

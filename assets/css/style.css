@@ -934,7 +934,7 @@ button:focus {
 
 .feature-area .feature-img {
   position: relative;
-  background-image: url("../img/home-one/feature-bg.jpg");
+  background-image: url("../img/home-one/feature-bg.webp");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1182,7 +1182,7 @@ button:focus {
 
 .review-area .review-bg {
   position: relative;
-  background-image: url("../img/home-one/review/review-right.jpg");
+  background-image: url("../img/home-one/review/review-right.webp");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2008,15 +2008,15 @@ footer .footer-img {
 /*----- Home Three CSS ------*/
 /*-- Banner --*/
 .banner-img-one {
-  background-image: url("../images/slider-2.jpg");
+  background-image: url("../images/slider-2.webp");
 }
 
 .banner-img-two {
-  background-image: url("../img/home-three/banner-slider-two.jpg");
+  background-image: url("../img/home-three/banner-slider-two.webp");
 }
 
 .banner-img-three {
-  background-image: url("../images/slider-1.jpg");
+  background-image: url("../images/slider-1.webp");
 }
 
 .banner-area-three {
@@ -4160,6 +4160,12 @@ nav.navbar {
   .menu-wrapper .navbar-list {
     flex-direction: column;
   }
+  .main-nav {
+    background: transparent;
+    padding-top: 0;
+    padding-bottom: 0;
+    background: black;
+  }
 
   .address-area .row {
     height: auto;
@@ -4167,6 +4173,11 @@ nav.navbar {
 
   .address-item {
     flex-direction: column;
+  }
+
+  .banner-slider
+  {
+    padding-top: 50px;
   }
 }
 
