@@ -3,34 +3,6 @@
 <?php include 'includes/header.php'; ?>
 
 <div class="banner-slider owl-theme owl-carousel" id="section-home">
-    <div class="banner-area-three banner-img-one">
-        <div class="d-table">
-            <div class="d-table-cell">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <div class="banner-text">
-                                <h1>We Repairs All Brand Of Cars </h1>
-                                <p>We believe in providing top quality workmanship and are
-                                    so confident in our level of service that we back it u
-                                    with a good quality.</p>
-                                <div class="cmn-btn">
-                                    <a class="banner-btn-left" href="#section-services">
-                                        <i class='bx bx-meteor'></i>
-                                        View all services
-                                    </a>
-                                    <a class="banner-btn-right" href="tel:0525957169">
-                                        <i class='bx bx-phone-call'></i>
-                                        052 595 7169
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="banner-area-three banner-img-three">
         <div class="d-table">
             <div class="d-table-cell">
@@ -42,8 +14,8 @@
                                 <p>We believe in providing top quality workmanship and are
                                     so confident in our level of service that we back it u
                                     with a good quality.</p>
-                                <div class="cmn-btn">
-                                    <a class="banner-btn-left" href="">
+                                <div class="cmn-btn banner-top-info">
+                                    <a class="banner-btn-left" href="#services">
                                         <i class='bx bx-meteor'></i>
                                         View all service
                                     </a>
@@ -60,9 +32,60 @@
             </div>
         </div>
     </div>
+    <div class="banner-area-three banner-img-one">
+        <div class="d-table">
+            <div class="d-table-cell">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="banner-text">
+                                <h1>Get a Sparkling Clean Car </h1>
+                                <p>We believe in providing top quality workmanship and are
+                                    so confident in our level of service that we back it u
+                                    with a good quality.</p>
+                                <div class="cmn-btn banner-top-info">
+                                    <a class="banner-btn-left" href="#section-services">
+                                        <i class='bx bx-meteor'></i>
+                                        View all services
+                                    </a>
+                                    <a class="banner-btn-right" href="tel:0525957169">
+                                        <i class='bx bx-phone-call'></i>
+                                        052 595 7169
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="banner-bottom-info">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-12 col-12">
+
+                <div class="cmn-btn">
+                    <a class="banner-btn-left mobile-btn" href="#services">
+                        <i class='bx bx-meteor'></i>
+                        View all service
+                    </a>
+                    <!-- <a class="banner-btn-right text-black" href="tel:0525957169">
+                            <i class='bx bx-phone-call'></i>
+                            052 595 7169
+                        </a> -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 <div class="address-area">
+
     <div class="container address-area-container">
         <div class="row">
             <div class="col-sm-6 col-lg-4 col-6">
@@ -98,9 +121,9 @@
 </div>
 
 
-<section class="process-area pt-100 pb-70">
+<section class="process-area pt-100 pb-70 " id="services">
     <div class="process-shape">
-        <img src="assets/img/home-one/car-shadow.png" alt="Shape">
+        <img src="assets/img/home-one/car-shadow.webp" alt="Shape">
     </div>
     <div class="section-title">
         <span class="sub-title">process</span>
@@ -125,7 +148,7 @@
             <div class="col-lg-4">
                 <div class="process-item">
                     <div class="process-img">
-                        <img src="assets/img/home-one/tyre.png" alt="Process">
+                        <img src="assets/img/home-one/tyre.webp" alt="Process">
                     </div>
                 </div>
             </div>
@@ -149,9 +172,9 @@
 
 <section class="quality-area quality-area-three mb-70" id="section-quality">
     <div class="quality-img">
-        <img src="<?= base_url() ?>assets/img/home-one/quality-shape.png" alt="Quality">
-        <img src="<?= base_url() ?>assets/img/home-one/quality-shape.png" alt="Quality">
-        <img src="<?= base_url() ?>assets/images/quality-car.png" alt="Quality">
+        <img src="<?= base_url() ?>assets/img/home-one/quality-shape.webp" alt="Quality">
+        <img src="<?= base_url() ?>assets/img/home-one/quality-shape.webp" alt="Quality">
+        <img src="<?= base_url() ?>assets/images/quality-car.webp" alt="Quality">
     </div>
     <div class="container">
         <div class="quality-content">
@@ -182,7 +205,7 @@
                     <i class="bx bxs-phone-call"></i> Call Now
                 </a>
             </div>
-            <img src="<?= base_url() ?>assets/img/home-one/tyre.png" alt="Quality">
+            <img src="<?= base_url() ?>assets/img/home-one/tyre.webp" alt="Quality">
         </div>
     </div>
 </section>
@@ -198,7 +221,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="services-2-block">
                     <div class="services-2-image">
-                        <img src="<?= base_url() ?>assets/images/machanical-work.jpg" alt="Mechanical Works">
+                        <img src="<?= base_url() ?>assets/images/machanical-work.webp" alt="Mechanical Works">
                         <div class="services-2-overlay">
                             <a href="tel:0525957169" class="services-2-read-more">Query Now</a>
                         </div>
@@ -210,7 +233,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="services-2-block">
                     <div class="services-2-image">
-                        <img src="<?= base_url() ?>assets/images/image-11.jpg" alt="Electrical Repairs">
+                        <img src="<?= base_url() ?>assets/images/image-11.webp" alt="Electrical Repairs">
                         <div class="services-2-overlay">
                             <a href="tel:0525957169" class="services-2-read-more">Query Now</a>
                         </div>
@@ -222,19 +245,21 @@
             <div class="col-lg-4 col-md-6">
                 <div class="services-2-block">
                     <div class="services-2-image">
-                        <img src="assets/images/8.jpg" alt="Ac Repair">
+                        <img src="assets/images/7.webp" alt="Washing & Cleaning">
                         <div class="services-2-overlay">
                             <a href="tel:0525957169" class="services-2-read-more">Query Now</a>
                         </div>
                         <div class="services-2-icon"><i class="fas fa-gears"></i></div>
                     </div>
-                    <h2 class="services-2-title">Ac Repair</h2>
+                    <h2 class="services-2-title">Washing & Cleaning</h2>
                 </div>
             </div>
+
+          
             <div class="col-lg-4 col-md-6">
                 <div class="services-2-block">
                     <div class="services-2-image">
-                        <img src="<?= base_url() ?>assets/images/dainting-painting.jpg" alt="Denting & Painting">
+                        <img src="<?= base_url() ?>assets/images/dainting-painting.webp" alt="Denting & Painting">
                         <div class="services-2-overlay">
                             <a href="tel:0525957169" class="services-2-read-more">Query Now</a>
                         </div>
@@ -246,7 +271,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="services-2-block">
                     <div class="services-2-image">
-                        <img src="<?= base_url() ?>assets/images/polish.jpg" alt="Body Polishing & Waxing">
+                        <img src="<?= base_url() ?>assets/images/polish.webp" alt="Body Polishing & Waxing">
                         <div class="services-2-overlay">
                             <a href="tel:0525957169" class="services-2-read-more">Query Now</a>
                         </div>
@@ -259,13 +284,13 @@
             <div class="col-lg-4 col-md-6">
                 <div class="services-2-block">
                     <div class="services-2-image">
-                        <img src="<?= base_url() ?>assets/images/tyre.jpg" alt="Wheel Alignment / Balancing / Tyre Fixing">
+                        <img src="<?= base_url() ?>assets/images/tyre.webp" alt="Wheel Alignment / Balancing">
                         <div class="services-2-overlay">
                             <a href="tel:0525957169" class="services-2-read-more">Query Now</a>
                         </div>
                         <div class="services-2-icon"><i class="fas fa-gears"></i></div>
                     </div>
-                    <h2 class="services-2-title">Wheel Alignment / Balancing / Tyre Fixing</h2>
+                    <h2 class="services-2-title">Wheel Alignment / Balancing</h2>
                 </div>
             </div>
 
@@ -275,7 +300,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="services-2-block">
                     <div class="services-2-image">
-                        <img src="assets/images/2.jpg" alt="Ceramic Coating & Tinting">
+                        <img src="assets/images/2.webp" alt="Ceramic Coating & Tinting">
                         <div class="services-2-overlay">
                             <a href="tel:0525957169" class="services-2-read-more">Query Now</a>
                         </div>
@@ -287,7 +312,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="services-2-block">
                     <div class="services-2-image">
-                        <img src="assets/images/3.jpg" alt="Exhaust & Muffler Service">
+                        <img src="assets/images/3.webp" alt="Exhaust & Muffler Service">
                         <div class="services-2-overlay">
                             <a href="tel:0525957169" class="services-2-read-more">Query Now</a>
                         </div>
@@ -299,7 +324,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="services-2-block">
                     <div class="services-2-image">
-                        <img src="assets/images/4.jpg" alt="Engine Tuning & Upgrading">
+                        <img src="assets/images/4.webp" alt="Engine Tuning & Upgrading">
                         <div class="services-2-overlay">
                             <a href="tel:0525957169" class="services-2-read-more">Query Now</a>
                         </div>
@@ -311,37 +336,37 @@
             <div class="col-lg-4 col-md-6">
                 <div class="services-2-block">
                     <div class="services-2-image">
-                        <img src="assets/images/5.jpg" alt="Suspension Work & Modification">
+                        <img src="assets/images/5.webp" alt="Suspension & Modification">
                         <div class="services-2-overlay">
                             <a href="tel:0525957169" class="services-2-read-more">Query Now</a>
                         </div>
                         <div class="services-2-icon"><i class="fas fa-gears"></i></div>
                     </div>
-                    <h2 class="services-2-title">Suspension Work & Modification</h2>
+                    <h2 class="services-2-title">Suspension & Modification</h2>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="services-2-block">
                     <div class="services-2-image">
-                        <img src="assets/images/6.jpg" alt="Vehicle Diagnosis & Inspection">
+                        <img src="assets/images/6.webp" alt=" Diagnosis & Inspection">
                         <div class="services-2-overlay">
                             <a href="tel:0525957169" class="services-2-read-more">Query Now</a>
                         </div>
                         <div class="services-2-icon"><i class="fas fa-gears"></i></div>
                     </div>
-                    <h2 class="services-2-title">Vehicle Diagnosis & Inspection</h2>
+                    <h2 class="services-2-title"> Diagnosis & Inspection</h2>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="services-2-block">
                     <div class="services-2-image">
-                        <img src="assets/images/7.jpg" alt="Washing & Cleaning">
+                        <img src="assets/images/8.webp" alt="Ac Repair">
                         <div class="services-2-overlay">
                             <a href="tel:0525957169" class="services-2-read-more">Query Now</a>
                         </div>
                         <div class="services-2-icon"><i class="fas fa-gears"></i></div>
                     </div>
-                    <h2 class="services-2-title">Washing & Cleaning</h2>
+                    <h2 class="services-2-title">Ac Repair</h2>
                 </div>
             </div>
 
@@ -351,7 +376,7 @@
     </div>
 </section>
 <section class="whychooseus-1-section pt-100 pb-70">
-    <div class="whychooseus-1-sec-bg" style="background-image: url(assets/images/bg-1.jpg);"></div>
+    <div class="whychooseus-1-sec-bg" style="background-image: url(assets/images/bg-1.webp);"></div>
     <div class="auto-container">
         <ul class="nav nav-tabs whychooseus-1-tab-btn" id="whychoose-Tab" role="tablist">
             <li class="nav-item" role="presentation">
@@ -369,7 +394,7 @@
             <div class="tab-pane fade show active" id="whychoose-tab-1" role="tabpanel" aria-labelledby="home-tab">
                 <div class="row">
                     <div class="col-lg-4">
-                        <div class="whychooseus-1-image"><img src="assets/images/image-105.jpg" alt="image" style="width:100%"></div>
+                        <div class="whychooseus-1-image"><img src="assets/images/image-105.webp" alt="image" style="width:100%"></div>
                     </div>
                     <div class="col-lg-8">
                         <div class="whychooseus-2-text">
@@ -399,7 +424,7 @@
             <div class="tab-pane fade" id="whychoose-tab-2" role="tabpanel" aria-labelledby="profile-tab">
                 <div class="row">
                     <div class="col-lg-4">
-                        <div class="whychooseus-1-image"><img src="assets/images/image-4.jpg" alt="image" style="width:100%"></div>
+                        <div class="whychooseus-1-image"><img src="assets/images/image-4.webp" alt="image" style="width:100%"></div>
                     </div>
                     <div class="col-lg-8">
                         <div class="whychooseus-1-list-wrap">
@@ -456,7 +481,7 @@
             <?php
             $i = 1;
             if (!empty($gallery)) {
-             
+
                 foreach ($gallery as $row) {
 
 

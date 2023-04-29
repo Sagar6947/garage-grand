@@ -2,7 +2,7 @@
 
     <!-- <div class="mobile-nav">
         <a href="<?= base_url() ?>" class="logo">
-            <img src="<?= base_url() ?>assets/images/logo-header.png" alt="Logo">
+            <img src="<?= base_url() ?>assets/images/logo-header.webp" alt="Logo">
         </a>
     </div> -->
 
@@ -10,8 +10,8 @@
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-light">
                 <a class="navbar-brand" href="<?= base_url() ?>">
-                    <img src="<?= base_url() ?>assets/images/logo-header.png" class="logo-one" width="150px" alt="Logo">
-                    <img src="<?= base_url() ?>assets/images/logo-header.png" class="logo-two" width="150px" alt="Logo">
+                    <img src="<?= base_url() ?>assets/images/logo-header.webp" class="logo-one" width="150px" alt="Logo">
+                    <img src="<?= base_url() ?>assets/images/logo-header.webp" class="logo-two" width="150px" alt="Logo">
                 </a>
                 <div class="cmn-btn header-call-btn">
                     <a class="banner-btn-left" href="javascropt:;" id="menuBtn">

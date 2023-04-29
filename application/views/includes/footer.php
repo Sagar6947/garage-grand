@@ -1,6 +1,6 @@
 <footer class="footer-area-two pt-100">
     <div class="footer-img">
-        <img src="assets/img/home-one/footer-car.png" alt="Footer">
+        <img src="assets/img/home-one/footer-car.webp" alt="Footer">
     </div>
     <div class="container">
         <div class="row">
@@ -8,17 +8,17 @@
                 <div class="footer-item">
                     <div class="footer-logo">
                         <a href="<?= base_url() ?>">
-                            <img src="<?= base_url() ?>assets/images/logo-header.png" alt="Logo">
+                            <img src="<?= base_url() ?>assets/images/logo-header.webp" alt="Logo">
                         </a>
                         <p>
                             <b>GRAND AL KHAIL AUTO GARAGE LLC.</b> Has years of experience in repairing, servicing and maintaining vehicles in the UAE,
                         </p>
                         <ul>
-                            <li>
+                            <!-- <li>
                                 <a href="#" target="_blank">
                                     <i class="bx bxl-youtube"></i>
                                 </a>
-                            </li>
+                            </li> -->
                             <li>
                                 <a href="https://www.facebook.com/profile.php?id=100069740630326" target="_blank">
                                     <i class="bx bxl-facebook"></i>
@@ -29,11 +29,11 @@
                                     <i class="bx bxl-instagram-alt"></i>
                                 </a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="#" target="_blank">
                                     <i class="bx bxl-twitter"></i>
                                 </a>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                 </div>
@@ -115,15 +115,15 @@
             </div>
         </div>
         <div class="copyright-area">
-            <div class="row">
-                <div class="col-lg-7">
+            <div class="row justify-content-center">
+                <div class="col-lg-3">
                     <div class="copyright-item">
                         <p>Copyright @<script>
                                 document.write(new Date().getFullYear())
-                            </script> <a href="<?= base_url() ?>" target="_blank">Grandgarage.</a></p>
+                            </script> <a href="<?= base_url() ?>" target="_blank"> Grandgarage.</a></p>
                     </div>
                 </div>
-                <div class="col-lg-5">
+                <!-- <div class="col-lg-5">
                     <div class="copyright-item copyright-right">
                         <ul>
                             <li>
@@ -137,7 +137,7 @@
                             </li>
                         </ul>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
